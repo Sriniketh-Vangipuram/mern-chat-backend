@@ -5,7 +5,7 @@ const app=express();
 app.use(cors({
     origin:[
         "http://localhost:5173",
-        "https://mern-chat-frontend-2rpshnu1b-sriniketh-vangipurams-projects.vercel.app",
+        "https://mern-chat-frontend-ruddy.vercel.app",
     ],
     methods:["GET","POST"],
     credentials:true,
